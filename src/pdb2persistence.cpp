@@ -28,8 +28,11 @@ typedef std::vector<Dim> Dim_container;
 typedef std::vector<std::vector<Index> > Matrix;
 
 /// <https://doc.cgal.org/latest/Alpha_shapes_3/index.html#Alpha_shapes_3AlphaShape3OrFixedAlphaShape3>
+/// https://doc.cgal.org/latest/Alpha_shapes_3/index.html
 #include <CGAL/Exact_predicates_inexact_constructions_kernel.h>
 #include <CGAL/Regular_triangulation_3.h>
+#include <CGAL/Alpha_shape_cell_base_3.h>
+#include <CGAL/Alpha_shape_vertex_base_3.h>
 #include <CGAL/Alpha_shape_3.h>
 #include <CGAL/Object.h>
 
